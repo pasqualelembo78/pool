@@ -15,7 +15,7 @@
         "dateformat": "*",
         "base58-native": "*",
         "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
-        "cryptonote-util": "git://github.com/Snipa22/node-cryptonote-util#xmr-Nan-2.0"
+        "cryptonote-util": "git://github.com/aivve/node-cryptonote-util.git"
     },
     "engines": {
         "node": ">=0.10"
