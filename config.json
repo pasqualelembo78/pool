@@ -1,18 +1,18 @@
 {
-    "poolHost": "your.pool.host",
+    "poolHost": "195.231.65.38",
 	
-    "coin": "Pine Tree Shilling 1652",
-    "symbol": "P1652",
+    "coin": "mevacoin",
+    "symbol": "mvc",
     "coinUnits": 1000000,
     "coinDecimalPlaces": 6,
     "coinDifficultyTarget": 30,
     "blockchainExplorer": "https://explorer.74.208.182.138/block.html?hash={id}",
     "transactionExplorer": "https://explorer.74.208.182.138/transaction.html?hash={id}",
 
-    "daemonType": "bytecoin",
-    "cnAlgorithm": "cryptonight_light",
-    "cnVariant": 1,
-    "cnBlobType": 2,
+    "daemonType": "mevacoin",
+    "cnAlgorithm": "cryptonight",
+    "cnVariant": 0,
+
 
     "logging": {
         "files": {
@@ -31,7 +31,7 @@
         "enabled": true,
 	"mergedMining": false,
         "clusterForks": "auto",
-        "poolAddress": "** Your pool wallet address **",
+        "poolAddress": "bickaKhUTEEG6adihnzC9dByKMaz8i1SrS4rHSM7gpMQfvQHrpE6T3uCYMcppo43cHHF8ygKpJ8bnQ765i3zyJJ77fatxtLZoY",
         "intAddressPrefix": null,
         "blockRefreshInterval": 600,
         "minerTimeout": 600,
@@ -152,12 +152,12 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 4242
+        "port": 18081
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 4243
+        "port": 18082
     },
 
     "redis": {
